@@ -10,7 +10,7 @@ namespace CheeseLover.Web.Services
         {
             _httpClient = httpClient;
         }
-        public async Task<List<Cheese>> GetAllPackages()
+        public async Task<List<Cheese>> GetAll()
         {
             return await JsonSerializer.DeserializeAsync<List<Cheese>>
                 (await _httpClient.GetStreamAsync($"api/cheese"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });

@@ -1,11 +1,20 @@
+using CheeseLover.Api.Infrastructure;
+using CheeseLover.Api.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PolicyName", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ICheeseRepository, CheeseRepository>();
+builder.Services.AddScoped<ICheeseService, CheeseService>();
+builder.Services.AddSingleton<ApiContext>();
 
 var app = builder.Build();
 
@@ -17,7 +26,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors(options => options.AllowAnyOrigin());
 app.UseAuthorization();
 
 app.MapControllers();

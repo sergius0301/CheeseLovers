@@ -1,0 +1,12 @@
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\bin\Debug\net6.0\CheeseLover.Shared.deps.json
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\bin\Debug\net6.0\CheeseLover.Shared.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\bin\Debug\net6.0\CheeseLover.Shared.pdb
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\obj\Debug\net6.0\CheeseLover.Shared.csproj.AssemblyReference.cache
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\obj\Debug\net6.0\CheeseLover.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\obj\Debug\net6.0\CheeseLover.Shared.AssemblyInfoInputs.cache
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\obj\Debug\net6.0\CheeseLover.Shared.AssemblyInfo.cs
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\obj\Debug\net6.0\CheeseLover.Shared.csproj.CoreCompileInputs.cache
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\obj\Debug\net6.0\CheeseLover.Shared.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\obj\Debug\net6.0\refint\CheeseLover.Shared.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\obj\Debug\net6.0\CheeseLover.Shared.pdb
+C:\Projects\eCheese\CheeseLover\CheeseLover.Shared\obj\Debug\net6.0\ref\CheeseLover.Shared.dll

@@ -12,7 +12,7 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 builder.Services.AddHttpClient<CheeseService>(
                     client =>
                     {
-                        client.BaseAddress = new Uri("http://localhost:64171/");
+                        client.BaseAddress = new Uri("https://localhost:7293/");
                         client.DefaultRequestHeaders.Add("Accept", "application/json");
                     });
 

@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheeseLover.Web", "CheeseLover.Web\CheeseLover.Web.csproj", "{CDCCE3A3-75E0-48DC-A18D-F3C0EF4B1597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheeseLover.Web", "CheeseLover.Web\CheeseLover.Web.csproj", "{CDCCE3A3-75E0-48DC-A18D-F3C0EF4B1597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheeseLover.Api", "CheeseLover.Api\CheeseLover.Api.csproj", "{36F3F335-5EDC-486B-987A-002B4875E2E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheeseLover.Api", "CheeseLover.Api\CheeseLover.Api.csproj", "{36F3F335-5EDC-486B-987A-002B4875E2E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheeseLover.Shared", "CheeseLover.Shared\CheeseLover.Shared.csproj", "{84149DE5-8681-4B5F-8998-C51A147502F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheeseLover.Shared", "CheeseLover.Shared\CheeseLover.Shared.csproj", "{84149DE5-8681-4B5F-8998-C51A147502F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{112E745F-BC56-4B5E-8171-8C627191DBC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheeseLover.API.Tests", "CheeseLover.API.Tests\CheeseLover.API.Tests.csproj", "{FBD86FC0-ABDB-44E7-BE5B-355A370644AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +31,16 @@ Global
 		{84149DE5-8681-4B5F-8998-C51A147502F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84149DE5-8681-4B5F-8998-C51A147502F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84149DE5-8681-4B5F-8998-C51A147502F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD86FC0-ABDB-44E7-BE5B-355A370644AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD86FC0-ABDB-44E7-BE5B-355A370644AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD86FC0-ABDB-44E7-BE5B-355A370644AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD86FC0-ABDB-44E7-BE5B-355A370644AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBD86FC0-ABDB-44E7-BE5B-355A370644AF} = {112E745F-BC56-4B5E-8171-8C627191DBC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EFDB382-CE2D-4C7B-BEFA-CEDB44E8C7AA}
