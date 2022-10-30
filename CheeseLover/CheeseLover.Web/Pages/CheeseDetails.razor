@@ -1,0 +1,114 @@
+﻿@page "/cheese/{cheeseId}"
+@using CheeseLover.Shared.Models
+@using CheeseLover.Web.Components
+@using CheeseLover.Web.Services
+@inject NavigationManager NavigationManager
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
+@if(Cheese != null)
+{
+    <section id="chefs" class="chefs section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>@Cheese.Name</h2>
+          <p> <span>@Cheese.Category</span> Cheese</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="chef-member" style="width:50%; min-height:300px">
+              <div class="member-img">
+                <img src="@Cheese.PictureUrl" class="img-fluid w-50" alt="">
+                
+              </div>
+              <div class="member-info">
+                <h4 class="p-3">@Cheese.Name</h4>
+                <span>@Cheese.Category</span>
+                <p class="p-3">@Cheese.Description</p>
+
+                <h1 class="card-title pricing-card-title p-3">$@Cheese.Price<small class="text-muted fw-light">/kg</small></h1>
+                <div class="d-flex justify-content-center p-3">
+                    <input type="number" style="width:10%" class="form-control text-center" @oninput="UpdateTotalPrice"  @bind-value="Quantity"  placeholder="Kgs">
+                </div>
+                <h1 class="card-title pricing-card-title p-3">$@TotalPrice<small class="text-muted fw-light">/Total</small></h1>
+              </div>
+
+              <div class="p-3 d-flex justify-content-evenly">
+                  <a class="btn btn-outline-danger" @onclick="() => DeleteCheeseAsync(Cheese.Id)">Remove</a>
+                  <a class="btn btn-secondary" @onclick="() => UpdateCheeseAsync(Cheese)">Update</a>
+                  <a class="btn btn-danger" @onclick="() => AddToTheCartAsync(Cheese)">Add to Cart</a>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+}
+<UpdateCheese @ref="UpdateCheeseDialog" CloseEventCallback="@UpdateCheeseDialog_OnDialogClose"></UpdateCheese>
+<CartOverview @ref="CartOverviewDialog" CloseEventCallback="@CartOverviewDialog_OnDialogClose"></CartOverview>
+
+
+@code {
+    [Parameter]
+    public string CheeseId { get; set; }
+
+    public decimal Quantity { get; set; } = 1;
+    [Inject]
+    public CheeseService CheeseService { get; set; }
+    [Inject]
+    public CartService CartService { get; set; }
+
+    public Cheese Cheese { get; set; }
+    public decimal TotalPrice { get; set; }
+
+    protected UpdateCheese UpdateCheeseDialog { get; set; }
+
+    protected CartOverview CartOverviewDialog { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Cheese = await CheeseService.GetCheeseById(int.Parse(CheeseId));
+    }
+
+    protected async Task DeleteCheeseAsync(int id)
+    {
+        await CheeseService.RemoveCheese(id);
+        NavigationManager.NavigateTo("/");
+    }
+
+    protected void UpdateCheeseAsync(Cheese cheese)
+    {
+        UpdateCheeseDialog.Cheese = cheese;
+        UpdateCheeseDialog.Show();
+    }
+
+    protected async Task AddToTheCartAsync(Cheese cheese)
+    {
+        var cartId = await localStorage.GetItemAsync<string>("cartId");
+
+        await CartService.AddCheeseToCart(new CartItemVM { CartId = Int32.Parse(cartId), ProductId = cheese.Id, Quantity = Quantity });
+
+        CartOverviewDialog.CartId = cartId;
+        await CartOverviewDialog.Show();
+    }
+
+    protected void UpdateTotalPrice(ChangeEventArgs args)
+    {
+        TotalPrice = Cheese.Price * Convert.ToDecimal((String)args.Value);
+    }
+
+    public void UpdateCheeseDialog_OnDialogClose()
+    {
+        StateHasChanged();
+    }
+    
+    public void CartOverviewDialog_OnDialogClose()
+    {
+        StateHasChanged();
+    }
+}

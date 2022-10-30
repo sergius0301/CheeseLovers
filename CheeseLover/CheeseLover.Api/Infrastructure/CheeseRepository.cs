@@ -15,7 +15,9 @@ namespace CheeseLover.Api.Infrastructure
 
             var lastId =  _dbContext.Cheeses.LastOrDefault()?.Id;
             cheese.Id = lastId.HasValue ? lastId.Value + 1: 0;
+
             _dbContext.Add(cheese);
+
             SaveChanges();
         }
 

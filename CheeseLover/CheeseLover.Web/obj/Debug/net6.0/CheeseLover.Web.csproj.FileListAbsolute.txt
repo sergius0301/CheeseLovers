@@ -611,12 +611,9 @@ C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\CheeseLover.Web
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\CheeseLover.Web.AssemblyInfo.cs
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\CheeseLover.Web.csproj.CoreCompileInputs.cache
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\CheeseLover.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\6gxWbdyc.gz
-C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\r5sIB+yZ.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\TMfWiKeA.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\0y9xX3fH.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\HrJ+XDBb.gz
-C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\mKeK0Gns.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\5Ix+Ig+e.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\Z7i0vDIR.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\N0PVdtpm.gz
@@ -629,7 +626,6 @@ C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\r8LL8+
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\EN3VzpUZ.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\oi2SDheF.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\1k2oSooI.gz
-C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\jYmFIdbv.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\nEpNZcJL.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\Y7VycGXd.gz
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\bGRhzgto.gz
@@ -825,3 +821,11 @@ C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\CheeseLover.Web
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\refint\CheeseLover.Web.dll
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\CheeseLover.Web.pdb
 C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\ref\CheeseLover.Web.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Web\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Web\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+C:\Projects\eCheese\CheeseLover\CheeseLover.Web\bin\Debug\net6.0\Blazored.LocalStorage.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\Y0hvdd0W.gz
+C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\3687+nLl.gz
+C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\VRvbm8aE.gz
+C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\5fOlNCCb.gz
+C:\Projects\eCheese\CheeseLover\CheeseLover.Web\obj\Debug\net6.0\build-gz\wqJgnKIW.gz

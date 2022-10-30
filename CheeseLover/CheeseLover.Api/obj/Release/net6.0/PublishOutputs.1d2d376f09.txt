@@ -1,0 +1,17 @@
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\CheeseLover.Api.exe
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\CheeseLover.Api.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\CheeseLover.Api.deps.json
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\CheeseLover.Api.runtimeconfig.json
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\CheeseLover.Api.pdb
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\CheeseLover.Shared.dll
+C:\Projects\eCheese\CheeseLover\CheeseLover.Api\obj\Release\net6.0\PubTmp\Out\CheeseLover.Shared.pdb

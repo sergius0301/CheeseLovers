@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheeseLover.Shared", "Chees
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{112E745F-BC56-4B5E-8171-8C627191DBC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheeseLover.API.Tests", "CheeseLover.API.Tests\CheeseLover.API.Tests.csproj", "{FBD86FC0-ABDB-44E7-BE5B-355A370644AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheeseLover.API.Tests", "CheeseLover.API.Tests\CheeseLover.API.Tests.csproj", "{FBD86FC0-ABDB-44E7-BE5B-355A370644AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

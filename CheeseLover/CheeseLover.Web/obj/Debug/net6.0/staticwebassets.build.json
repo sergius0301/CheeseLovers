@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vcrd2iUv78mqUhUs11IwidppN50IYv3uARfF02AlStw=",
+  "Hash": "zjWyBciCU1Z59utPqRuH9XPRYVw2Viz/YVjZxvwcEHc=",
   "Source": "CheeseLover.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.6\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "CheeseLover.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\blazored.localstorage\\4.2.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\CheeseLover.Shared.dll",
@@ -252,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.6\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -269,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.6\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -337,7 +354,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.6\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -558,7 +575,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\sergiu.grabovschi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -3910,6 +3927,23 @@
       "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Xml.Linq.dll"
     },
     {
+      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\3687+nLl.gz",
+      "SourceId": "CheeseLover.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\3bFucEvD.gz",
       "SourceId": "CheeseLover.Web",
       "SourceType": "Computed",
@@ -4046,6 +4080,23 @@
       "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.AccessControl.dll"
     },
     {
+      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\5fOlNCCb.gz",
+      "SourceId": "CheeseLover.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\5g6Hcwwe.gz",
       "SourceId": "CheeseLover.Web",
       "SourceType": "Computed",
@@ -4095,23 +4146,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.FileExtensions.dll"
-    },
-    {
-      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\6gxWbdyc.gz",
-      "SourceId": "CheeseLover.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\8EfgZ7H+.gz",
@@ -5270,23 +5304,6 @@
       "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.InteropServices.dll"
     },
     {
-      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\jYmFIdbv.gz",
-      "SourceId": "CheeseLover.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\K+JqrJX4.gz",
       "SourceId": "CheeseLover.Web",
       "SourceType": "Computed",
@@ -5489,23 +5506,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encoding.dll"
-    },
-    {
-      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\mKeK0Gns.gz",
-      "SourceId": "CheeseLover.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\MQrAuYAr.gz",
@@ -5897,23 +5897,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Web.dll"
-    },
-    {
-      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\r5sIB+yZ.gz",
-      "SourceId": "CheeseLover.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\r8LL8+jC.gz",
@@ -6443,6 +6426,23 @@
       "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Uri.dll"
     },
     {
+      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\VRvbm8aE.gz",
+      "SourceId": "CheeseLover.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\w58V7sFy.gz",
       "SourceId": "CheeseLover.Web",
       "SourceType": "Computed",
@@ -6475,6 +6475,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.SecureString.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\wqJgnKIW.gz",
+      "SourceId": "CheeseLover.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\wvF+cXFh.gz",
@@ -6628,6 +6645,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.Unsafe.dll"
+    },
+    {
+      "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\Y0hvdd0W.gz",
+      "SourceId": "CheeseLover.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Projects\\eCheese\\CheeseLover\\CheeseLover.Web\\obj\\Debug\\net6.0\\build-gz\\Y1O6aXLq.gz",

@@ -1,0 +1,92 @@
+﻿@using CheeseLover.Shared.Models
+@using CheeseLover.Shared.Enums
+@using CheeseLover.Web.Services
+
+@if (ShowDialog)
+{
+    <div style="overflow-y: scroll" class="modal fade show d-block" id="exampleModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="titleLabel">Update Cheese</h5>
+                <button @onclick="Close" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <EditForm Model="@Cheese">
+
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <div class="form-group p-3">
+                        <label for="countryName">Name</label>
+                        <InputText id="countryName" class="form-control" @bind-Value="@Cheese.Name" placeholder=""></InputText>
+                    </div>
+                    <div class="form-group p-3">
+                        <label for="deliveryPrice">Price</label>
+                        <InputNumber id="deliveryPrice" class="form-control" @bind-Value="@Cheese.Price" placeholder=""></InputNumber>
+                    </div>
+                    <div class="form-group p-3">
+                        <label for="countryDescription">Description</label>
+                        <InputText id="countryDescription" class="form-control" @bind-Value="@Cheese.Description" placeholder=""></InputText>
+                    </div>
+                     <div class="form-group p-3">
+                        <label for="currency">Category Cheese</label>
+                        <InputSelect class="form-select" id="currency" @bind-Value="@Cheese.Category">
+                            @foreach (var cheese in Enum.GetValues(typeof(CheeseType)))
+                                {
+                                    <option value="@cheese">@cheese</option>
+                                }
+                        </InputSelect>
+                    </div>
+                     <div class="form-group p-3">
+                        <label for="countryPic">Photo Url</label>
+                        <InputText id="countryPic" class="form-control" @bind-Value="@Cheese.PictureUrl" placeholder=""></InputText>
+                    </div>
+                    
+                    <div class="form-group p-3 d-flex justify-content-evenly">
+                        <a @onclick="Close" class="btn btn-outline-primary">Close</a>
+
+                        <button type="button" @onclick="HandleValidSubmit" class="btn btn-primary">Save</button>
+                    </div>
+                   
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+}
+
+
+@code {
+    [Parameter]
+    public EventCallback<bool> CloseEventCallback { get; set; }
+    [Inject]
+    public CheeseService CheeseService { get; set; }
+
+    public bool ShowDialog { get; set; }
+    public Cheese Cheese { get; set; }
+
+    protected async Task HandleValidSubmit()
+    {
+        await CheeseService.UpdateCheese(Cheese);
+        ShowDialog = false;
+
+        await CloseEventCallback.InvokeAsync(true);
+        StateHasChanged();
+    }
+
+    public void Show()
+    {
+        ShowDialog = true;
+        StateHasChanged();
+    }
+
+    public void Close()
+    {
+        ShowDialog = false;
+        StateHasChanged();
+    }
+}

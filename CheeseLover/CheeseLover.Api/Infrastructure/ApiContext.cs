@@ -27,7 +27,7 @@ namespace CheeseLover.Api.Infrastructure
                 Price = 12,
                 Name = "Gouda Semi-Soft",
                 Description = "Some good cheese 1",
-                PictureUrl = "http://google.com"
+                PictureUrl = "https://www.onlygfx.com/wp-content/uploads/2021/01/cartoon-cheese-1.png"
             },
               new Cheese
               {
@@ -37,7 +37,7 @@ namespace CheeseLover.Api.Infrastructure
                   Price = 24,
                   Name = "Hard Grating",
                   Description = "Some good cheese 2",
-                  PictureUrl = "http://google.com"
+                  PictureUrl = "https://www.onlygfx.com/wp-content/uploads/2021/01/cartoon-cheese-1.png"
               },
               new Cheese
               {
@@ -47,7 +47,7 @@ namespace CheeseLover.Api.Infrastructure
                   Price = 8,
                   Name = "Unripened",
                   Description = "Some good cheese 3",
-                  PictureUrl = "http://google.com"
+                  PictureUrl = "https://www.onlygfx.com/wp-content/uploads/2021/01/cartoon-cheese-1.png"
               },
               new Cheese
               {
@@ -57,7 +57,7 @@ namespace CheeseLover.Api.Infrastructure
                   Price = 6,
                   Name = "Goat Cheese",
                   Description = "Some good cheese 4",
-                  PictureUrl = "http://google.com"
+                  PictureUrl = "https://www.onlygfx.com/wp-content/uploads/2021/01/cartoon-cheese-1.png"
               },
               new Cheese
               {
@@ -67,11 +67,12 @@ namespace CheeseLover.Api.Infrastructure
                   Price = 9,
                   Name = "Blue Veined",
                   Description = "Some good cheese 5",
-                  PictureUrl = "http://google.com"
+                  PictureUrl = "https://www.onlygfx.com/wp-content/uploads/2021/01/cartoon-cheese-1.png"
               });
             this.SaveChanges();
         }
 
         public DbSet<Cheese> Cheeses { get; set; }
+        public DbSet<Cart> Cart { get; set; }
     }
 }

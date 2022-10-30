@@ -1,20 +1,23 @@
 ﻿@using CheeseLover.Shared.Enums
 @using CheeseLover.Shared.Models
+@using CheeseLover.Web.Components
 @using CheeseLover.Web.Services
+@inject NavigationManager NavigationManager
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
 @page "/"
-<h3>CheeseOverview</h3>
+
 @if (Cheeses == null)
 {
     <p><em>Loading ...</em></p>
 }
 else{
-    <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu">
         <div class="container" data-aos="fade-up">
 
           <div class="section-header">
-            <h2>Our Menu</h2>
             <p>Check Our <span>Cheeseee Menu</span></p>
+             <a class="btn-book-a-table" @onclick="() => AddCheese()">Add cheese</a>
           </div>
 
           <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -42,8 +45,8 @@ else{
     
                             @foreach(var cheese in Cheeses.Where(x=>x.Category == cheeseType))
                             {
-                                <div class="col-lg-4 menu-item">
-                                    <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                                <div @onclick="() => NavigateToProductDetails(cheese.Id)" class="col-lg-4 menu-item">
+                                   <img style="width: 500px; height: 200px;" src="@cheese.PictureUrl" class="menu-img img-fluid" alt="">
                                     <h4>@cheese.Name</h4>
                                     <p class="ingredients">
                                         @cheese.Description
@@ -62,22 +65,49 @@ else{
       </section>
 
   }
-@code {
-    public List<Cheese> Cheeses { get; set; }
-    private List<CheeseType> CheeseTypes { get; set; }
+  <CheeseLover.Web.Components.AddCheese @ref="AddCheeseDialog" CloseEventCallback="@AddCheeseDialog_OnDialogClose"></CheeseLover.Web.Components.AddCheese>
 
+@code {
     [Inject]
     public CheeseService CheeseService { get; set; }
+    [Inject]
+    public CartService CartService { get; set; }
+    public List<Cheese> Cheeses { get; set; }
+    private List<CheeseType> CheeseTypes { get; set; }
+    protected AddCheese AddCheeseDialog { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-
         Cheeses = (await CheeseService.GetAll()).ToList();
         CheeseTypes = Cheeses.Select(x => x.Category).Distinct().ToList();
+        await SetCart();
     }
 
     private string GetClassType(CheeseType type)
     {
         return CheeseTypes.FirstOrDefault() == type ? "active show" : String.Empty;
+    }
+    private void NavigateToProductDetails(int cheeseId)
+    {
+        NavigationManager.NavigateTo($"cheese/{cheeseId}");
+    }
+
+    private async Task SetCart()
+    {
+        var localStorageCartId = await localStorage.GetItemAsync<string>("cartId");
+        if(localStorageCartId == null)
+        {
+            var cartId = await CartService.CreateCart();
+            await localStorage.SetItemAsync("cartId", cartId);
+        }
+    }
+    private void AddCheese()
+    {
+        AddCheeseDialog.Show();
+    }
+
+    public async Task AddCheeseDialog_OnDialogClose()
+    {
+        Cheeses = (await CheeseService.GetAll()).ToList();
     }
 }

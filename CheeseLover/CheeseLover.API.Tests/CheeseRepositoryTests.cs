@@ -16,9 +16,6 @@ namespace CheeseLover.API.Tests
             _repo = new CheeseRepository(new ApiContext());
         }
 
-        //Arrange  
-        //Act 
-        //Assert
         [TestMethod]
         public void CreateCheese_WillAddCheese()
         {
